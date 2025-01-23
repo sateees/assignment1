@@ -21,4 +21,4 @@ print('Training completed')
 print("Save model")
 
 # saving our model # model - model , filename-model_jlib
-joblib.dump(model , 'model_diabetes_prediction.joblib') # Can be Any Cloud Location # Can be Any Model Regstry
+joblib.dump(model , '../app/model_diabetes_prediction.joblib') # Can be Any Cloud Location # Can be Any Model Regstry
